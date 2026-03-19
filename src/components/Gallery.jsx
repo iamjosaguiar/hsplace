@@ -60,7 +60,7 @@ export default function Gallery({ preview }) {
                 Follow us for more transformations
               </p>
               <a
-                href="https://www.instagram.com/hsplacehairskinbeauty"
+                href="https://www.instagram.com/hsplacehairstudio"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 font-sans text-neutral-900 text-xs tracking-[0.12em] uppercase hover:text-sage-600 transition-colors duration-300"
@@ -70,7 +70,7 @@ export default function Gallery({ preview }) {
                   <circle cx="12" cy="12" r="5" />
                   <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none" />
                 </svg>
-                @hsplacehairskinbeauty
+                @hsplacehairstudio
               </a>
             </>
           )}

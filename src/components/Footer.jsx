@@ -38,7 +38,7 @@ export default function Footer() {
               <a href="https://www.facebook.com/HsPlaceHairStudio" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full border border-neutral-700 flex items-center justify-center text-neutral-500 hover:border-neutral-400 hover:text-white transition-all duration-300" aria-label="Facebook">
                 <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" /></svg>
               </a>
-              <a href="https://www.instagram.com/hsplacehairskinbeauty" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full border border-neutral-700 flex items-center justify-center text-neutral-500 hover:border-neutral-400 hover:text-white transition-all duration-300" aria-label="Instagram">
+              <a href="https://www.instagram.com/hsplacehairstudio" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full border border-neutral-700 flex items-center justify-center text-neutral-500 hover:border-neutral-400 hover:text-white transition-all duration-300" aria-label="Instagram">
                 <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="2" width="20" height="20" rx="5" /><circle cx="12" cy="12" r="5" /><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none" /></svg>
               </a>
               <a href="https://www.tiktok.com/@hs.place.hair.stu" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full border border-neutral-700 flex items-center justify-center text-neutral-500 hover:border-neutral-400 hover:text-white transition-all duration-300" aria-label="TikTok">

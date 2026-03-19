@@ -50,7 +50,7 @@ export const localBusinessSchema = {
   ],
   "sameAs": [
     "https://www.facebook.com/HsPlaceHairStudio",
-    "https://www.instagram.com/hsplacehairskinbeauty",
+    "https://www.instagram.com/hsplacehairstudio",
     "https://www.tiktok.com/@hs.place.hair.stu"
   ],
   "areaServed": [
