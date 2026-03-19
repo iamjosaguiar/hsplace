@@ -99,9 +99,9 @@ export default function Contact() {
             {/* Payment */}
             <div>
               <p className="font-sans text-neutral-400 text-xs tracking-[0.1em] uppercase mb-3">Payment Options</p>
-              <div className="flex items-center gap-4">
-                <img src="/images/afterpay.png" alt="Afterpay" className="h-5 w-auto opacity-50" />
-                <img src="/images/zippay.png" alt="Zippay" className="h-5 w-auto opacity-50" />
+              <div className="flex items-center gap-5">
+                <img src="/images/afterpay.png" alt="Afterpay accepted at H's Place Hair Studio" className="h-7 w-auto opacity-70" />
+                <img src="/images/zippay.png" alt="Zippay accepted at H's Place Hair Studio" className="h-7 w-auto opacity-70" />
               </div>
             </div>
           </div>

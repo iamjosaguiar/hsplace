@@ -87,6 +87,11 @@ export default function Footer() {
                 Hsplace0@gmail.com
               </a>
             </address>
+
+            <div className="flex items-center gap-4 mt-5">
+              <img src="/images/afterpay.png" alt="Afterpay" className="h-5 w-auto brightness-0 invert opacity-40" />
+              <img src="/images/zippay.png" alt="Zippay" className="h-5 w-auto brightness-0 invert opacity-40" />
+            </div>
           </div>
         </div>
       </div>
