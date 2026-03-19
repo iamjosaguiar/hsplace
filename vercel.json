@@ -1,0 +1,26 @@
+{
+  "redirects": [
+    { "source": "/about/", "destination": "/about", "statusCode": 301 },
+    { "source": "/gallery/", "destination": "/gallery", "statusCode": 301 },
+    { "source": "/gallery-2/", "destination": "/gallery", "statusCode": 301 },
+    { "source": "/contact/", "destination": "/contact", "statusCode": 301 },
+    { "source": "/book-online/", "destination": "https://apps.kitomba.com/bookings/hsplace", "statusCode": 301 }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/gallery/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/images/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    }
+  ]
+}

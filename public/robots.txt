@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hsplace.com.au/sitemap.xml
