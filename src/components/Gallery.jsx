@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom'
 
 const galleryItems = [
-  { span: 'col-span-2 row-span-2', label: 'Balayage Blonde', src: '/gallery/1.jpeg', alt: 'Balayage blonde hair transformation by H\'s Place Melton' },
-  { span: 'col-span-1 row-span-1', label: 'Precision Cut', src: '/gallery/2.jpeg', alt: 'Precision haircut styling at H\'s Place Hair Studio' },
-  { span: 'col-span-1 row-span-1', label: 'Colour Transformation', src: '/gallery/3.jpeg', alt: 'Hair colour transformation by Keune master colourists in Melton' },
-  { span: 'col-span-1 row-span-2', label: 'Extensions', src: '/gallery/4.jpeg', alt: 'Professional hair extensions at H\'s Place Melton' },
-  { span: 'col-span-1 row-span-1', label: 'Special Occasion', src: '/gallery/5.jpeg', alt: 'Special occasion hair styling by H\'s Place Hair Studio' },
-  { span: 'col-span-1 row-span-1', label: 'Creative Colour', src: '/gallery/6.jpeg', alt: 'Creative hair colour by blonde specialists in Melton' },
-  { span: 'col-span-2 row-span-1', label: 'Studio Vibes', src: '/gallery/7.jpeg', alt: 'H\'s Place Hair Studio salon in Melton VIC' },
+  { span: 'col-span-2 row-span-2', src: '/gallery/1.jpeg', alt: 'Hair styling at H\'s Place Hair Studio Melton' },
+  { span: 'col-span-1 row-span-1', src: '/gallery/2.jpeg', alt: 'Hair transformation at H\'s Place Melton' },
+  { span: 'col-span-1 row-span-1', src: '/gallery/3.jpeg', alt: 'Haircut by H\'s Place Hair Studio' },
+  { span: 'col-span-1 row-span-2', src: '/gallery/4.jpeg', alt: 'Client hair styling at H\'s Place Melton' },
+  { span: 'col-span-1 row-span-1', src: '/gallery/5.jpeg', alt: 'Hair work by H\'s Place Hair Studio' },
+  { span: 'col-span-1 row-span-1', src: '/gallery/6.jpeg', alt: 'Salon work at H\'s Place Melton VIC' },
+  { span: 'col-span-2 row-span-1', src: '/gallery/7.jpeg', alt: 'Hair styling at H\'s Place Hair Studio Melton VIC' },
 ]
 
 export default function Gallery({ preview }) {
@@ -41,11 +41,7 @@ export default function Gallery({ preview }) {
                 className="absolute inset-0 w-full h-full object-cover"
                 loading="lazy"
               />
-              <div className="absolute inset-0 bg-neutral-900/0 group-hover:bg-neutral-900/50 transition-all duration-400 flex items-center justify-center">
-                <p className="font-sans text-white text-sm tracking-wide opacity-0 group-hover:opacity-100 transition-opacity duration-400 translate-y-2 group-hover:translate-y-0">
-                  {item.label}
-                </p>
-              </div>
+              <div className="absolute inset-0 bg-neutral-900/0 group-hover:bg-neutral-900/20 transition-all duration-400" />
             </div>
           ))}
         </div>
