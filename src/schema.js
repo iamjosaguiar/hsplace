@@ -50,7 +50,8 @@ export const localBusinessSchema = {
   ],
   "sameAs": [
     "https://www.facebook.com/HsPlaceHairStudio",
-    "https://www.instagram.com/hsplacehairskinbeauty"
+    "https://www.instagram.com/hsplacehairskinbeauty",
+    "https://www.tiktok.com/@hs.place.hair.stu"
   ],
   "areaServed": [
     {
@@ -102,11 +103,11 @@ export const localBusinessSchema = {
   ],
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "5",
+    "ratingValue": "4.8",
     "bestRating": "5",
     "worstRating": "1",
-    "ratingCount": "8",
-    "reviewCount": "8"
+    "ratingCount": "149",
+    "reviewCount": "149"
   },
   "review": [
     { "@type": "Review", "author": { "@type": "Person", "name": "Emma" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "All the girls at H's Place are fantastic, very welcoming, helpful, and honest. Highly recommend the salon, had great experience from day one and wouldn't go anywhere else." },
