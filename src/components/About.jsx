@@ -5,20 +5,23 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-16 md:gap-20 items-center">
           {/* Left content */}
           <div className="reveal-left">
-            <p className="font-sans text-sage-600 text-xs tracking-[0.2em] uppercase mb-4">About Us</p>
+            <p className="font-sans text-sage-600 text-xs tracking-[0.2em] uppercase mb-4">Experience the Art of Caring</p>
             <h2 className="font-display text-4xl md:text-5xl text-neutral-900 mb-6 leading-tight">
               Melton's Award-Winning<br />
               <span className="italic">Hair Salon Since 2004</span>
             </h2>
             <div className="accent-line-left" />
             <p className="font-sans text-neutral-500 leading-relaxed mb-5">
-              Since opening our doors in 2004, H's Place has grown to become Melton's most sought after and award winning salon for hair services. We deliver personal service using only the highest quality products, ensuring every client leaves feeling extraordinary.
+              H's Place Hair Studio first opened in 2004 and since then has only ever strived to provide the best possible standard of personal services at all times, using the finest quality products available. We are Melton's most sought after and award winning salon for hair services.
+            </p>
+            <p className="font-sans text-neutral-500 leading-relaxed mb-5">
+              Our salon vision is to provide the highest quality in customer service, products, treatments and equipment to ensure the comfort, safety and maximum benefits from our treatments and services for every single person who walks through the door.
             </p>
             <p className="font-sans text-neutral-500 leading-relaxed mb-8">
-              Our team members are advanced trained and highly skilled in their area of expertise. From luxurious colour transformations to precision cutting, we provide an excellent level of service to make sure you look and feel amazing.
+              Our team are all advanced trained and highly skilled in their area of expertise, so you can be rest assured you are receiving the best service. At H's Place Hair Studio we deliver an excellent level of service to make sure you look and feel amazing after every single visit.
             </p>
             <p className="font-display text-2xl italic text-neutral-700 mb-8">
-              "It's all about you."
+              "It's all about you!"
             </p>
             <a
               href="https://apps.kitomba.com/bookings/hsplace"

@@ -23,7 +23,7 @@ export default function Contact() {
     const body = encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\n\nMessage:\n${formData.message}`
     )
-    window.location.href = `mailto:hsplace@outlook.com?subject=${subject}&body=${body}`
+    window.location.href = `mailto:Hsplace0@gmail.com?subject=${subject}&body=${body}`
   }
 
   return (
@@ -35,6 +35,9 @@ export default function Contact() {
             Contact <span className="italic">Us</span>
           </h2>
           <div className="accent-line" />
+          <p className="font-sans text-neutral-400 max-w-lg mx-auto mt-4 text-sm">
+            At H's Place, our friendly team is always looking forward to treating you to one of our services &mdash; which we tailor to you. Whether it is a haircut, style or colour, you will leave us feeling pampered and relaxed.
+          </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-16">
@@ -53,7 +56,7 @@ export default function Contact() {
                 </div>
               </a>
 
-              <a href="mailto:hsplace@outlook.com" className="flex items-start gap-4 group">
+              <a href="mailto:Hsplace0@gmail.com" className="flex items-start gap-4 group">
                 <div className="w-10 h-10 rounded-full bg-sage-50 border border-sage-200 flex items-center justify-center flex-shrink-0 group-hover:bg-sage-100 transition-colors duration-300">
                   <svg className="w-4 h-4 text-sage-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
@@ -62,7 +65,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="font-sans text-neutral-400 text-xs tracking-[0.1em] uppercase mb-1">Email</p>
-                  <p className="font-sans text-neutral-900 group-hover:text-sage-600 transition-colors">hsplace@outlook.com</p>
+                  <p className="font-sans text-neutral-900 group-hover:text-sage-600 transition-colors">Hsplace0@gmail.com</p>
                 </div>
               </a>
 

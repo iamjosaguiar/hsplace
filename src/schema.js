@@ -7,7 +7,7 @@ export const localBusinessSchema = {
   "description": "Melton's award-winning blonde and balayage specialists since 2004. Keune master colourists, precision cutting and hair extensions.",
   "url": "https://hsplace.com.au",
   "telephone": "+61397469001",
-  "email": "hsplace@outlook.com",
+  "email": "Hsplace0@gmail.com",
   "image": "https://hsplace.com.au/logo.png",
   "logo": "https://hsplace.com.au/logo.png",
   "foundingDate": "2004",

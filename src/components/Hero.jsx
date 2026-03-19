@@ -14,10 +14,14 @@ export default function Hero() {
         <div className="accent-line animate-fade-in" style={{ animationDelay: '0.8s' }} />
 
         <p className="font-sans text-white/50 text-[15px] leading-relaxed max-w-lg mx-auto mt-6 mb-12 animate-fade-up" style={{ animationDelay: '1s' }}>
-          Seamless colour blends, gorgeous bright blondes, precision cutting and so much more. Relax with 100% confidence in our Keune master colourists and advanced cutting specialists.
+          We are known for our seamless colour blends and those gorgeous bright blondes, but our skills don't stop there. A place you can relax and have 100% confidence with our highly trained team of Keune master colourists and advanced cutting specialists. We love making your hair dreams come true.
         </p>
 
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-up" style={{ animationDelay: '1.2s' }}>
+        <p className="font-sans text-white/30 text-sm italic mb-10 animate-fade-up" style={{ animationDelay: '1.1s' }}>
+          So what are you waiting for?
+        </p>
+
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-up" style={{ animationDelay: '1.3s' }}>
           <a
             href="https://apps.kitomba.com/bookings/hsplace"
             target="_blank"
