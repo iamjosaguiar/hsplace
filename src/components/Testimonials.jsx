@@ -1,13 +1,38 @@
 import { useState, useEffect, useCallback } from 'react'
 
 const testimonials = [
-  { name: 'Nicole', text: 'Walked in feeling rather low... one of the best salon experiences I\'ve ever had! The team made me feel so welcome and I left feeling like a new woman.' },
-  { name: 'Maxine', text: 'Great morning in the salon with the girls! Always leave feeling fabulous and ready to take on the world.' },
-  { name: 'Michelle Grey', text: 'I finally got what I have been trying to get for years thanks to Hayleigh. She understood exactly what I wanted and delivered perfection.' },
-  { name: 'Rachael', text: 'After having a hard week at work I enjoy coming into the salon. It\'s like a little sanctuary where I can unwind and be pampered.' },
-  { name: 'Jade Green', text: '5 stars all the way! The most amazing team I have ever seen. Their passion for hair is unmatched and the results speak for themselves.' },
-  { name: 'Heather', text: 'My experience was amazing! Came in feeling tired and run down and left feeling absolutely rejuvenated. The transformation was incredible.' },
-  { name: 'Emma', text: 'All the girls at H\'s Place are fantastic. They always go above and beyond to make sure you\'re happy with your hair.' },
+  {
+    name: 'Emma',
+    text: 'All the girls at H\'s Place are fantastic, very welcoming, helpful, and honest. Couldn\'t ask for a better group of girls. I love going in there not just to get my hair done, but knowing I will be having awesome fun and lots of laughs. Highly recommend the salon, had great experience from day one and wouldn\'t go anywhere else.',
+  },
+  {
+    name: 'Nicole',
+    text: 'Walked in feeling rather low and kind of embarrassed by the state of my hair! But the girls were sooooo lovely, kind and inviting. It was one of the best salon experiences I\'ve ever had! I left feeling so confident and proud of my hair! Got some waxing done as well and the results are simply amazing! Massive shoutout to all the girls! A million times thankyou!',
+  },
+  {
+    name: 'Maxine',
+    text: 'Great morning in the salon with the girls! Loving my hair colour & had an amazing facial. The girls are AWESOME at H\'s, very professional and friendly.',
+  },
+  {
+    name: 'Michelle Grey',
+    text: 'Absolutely love my blonde hair!! I finally got what I have been trying to get for years thanks to Hayleigh. She took the time to chat with me and find out what it was that I wanted to achieve. I was so nervous going to another salon because I had never been happy, but now I\'ve found the salon I\'ve been looking for. I walked away feeling younger and hotter. Do yourself a favour if you want a change and want a clean looking blonde you must go to this salon.',
+  },
+  {
+    name: 'Rachael',
+    text: 'After having a hard week at work I enjoy coming into the salon to defuse with the pampering and social engagement with the lovely and professional staff! I will highly recommend H\'s Place to anyone wanting great professional service. Looking forward to my next appointment!',
+  },
+  {
+    name: 'Jade Green',
+    text: '5 stars all the way! The most amazing team I\'ve ever seen in a hair salon. The support and team work this salon has is incredible. They really go above and beyond for you. I love the fact I can have my hair and skin treatments in one place. They really take the time to find out what concerns or problems you are having and make it a high priority to help you solve them.',
+  },
+  {
+    name: 'Heather',
+    text: 'My experience was amazing! Came into the salon feeling tired and run down, aches and soreness. Walked out feeling like a million dollars thanks to Aimee and her amazing massage!',
+  },
+  {
+    name: 'Nicole B.',
+    text: 'I have been looking for a salon for a while now and all I can say is THANK GOD I found H\'s Place. I have had so many issues with my hair in the past and all I wanted was a nice blonde and thanks to Hayleigh I got what I wanted. She was really honest and told me all about shampoos that I should and shouldn\'t be using. I highly recommend this salon, you will be so happy with the end result. I will definitely be back.',
+  },
 ]
 
 export default function Testimonials() {
@@ -24,7 +49,7 @@ export default function Testimonials() {
 
   useEffect(() => {
     if (isPaused) return
-    const interval = setInterval(next, 5000)
+    const interval = setInterval(next, 6000)
     return () => clearInterval(interval)
   }, [isPaused, next])
 
@@ -49,7 +74,7 @@ export default function Testimonials() {
             &ldquo;
           </div>
 
-          <div className="relative min-h-[180px] flex items-center justify-center">
+          <div className="relative min-h-[220px] md:min-h-[180px] flex items-center justify-center">
             {testimonials.map((t, i) => (
               <div
                 key={i}

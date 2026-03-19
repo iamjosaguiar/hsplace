@@ -105,17 +105,18 @@ export const localBusinessSchema = {
     "ratingValue": "5",
     "bestRating": "5",
     "worstRating": "1",
-    "ratingCount": "7",
-    "reviewCount": "7"
+    "ratingCount": "8",
+    "reviewCount": "8"
   },
   "review": [
-    { "@type": "Review", "author": { "@type": "Person", "name": "Nicole" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Walked in feeling rather low... one of the best salon experiences I've ever had!" },
-    { "@type": "Review", "author": { "@type": "Person", "name": "Maxine" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Great morning in the salon with the girls!" },
-    { "@type": "Review", "author": { "@type": "Person", "name": "Michelle Grey" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "I finally got what I have been trying to get for years thanks to Hayleigh." },
-    { "@type": "Review", "author": { "@type": "Person", "name": "Rachael" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "After having a hard week at work I enjoy coming into the salon." },
-    { "@type": "Review", "author": { "@type": "Person", "name": "Jade Green" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "5 stars all the way! The most amazing team I have ever seen." },
-    { "@type": "Review", "author": { "@type": "Person", "name": "Heather" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "My experience was amazing! Came in feeling tired and run down." },
-    { "@type": "Review", "author": { "@type": "Person", "name": "Emma" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "All the girls at H's Place are fantastic." }
+    { "@type": "Review", "author": { "@type": "Person", "name": "Emma" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "All the girls at H's Place are fantastic, very welcoming, helpful, and honest. Highly recommend the salon, had great experience from day one and wouldn't go anywhere else." },
+    { "@type": "Review", "author": { "@type": "Person", "name": "Nicole" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "It was one of the best salon experiences I've ever had! I left feeling so confident and proud of my hair!" },
+    { "@type": "Review", "author": { "@type": "Person", "name": "Maxine" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Great morning in the salon with the girls! Loving my hair colour & had an amazing facial. The girls are AWESOME at H's, very professional and friendly." },
+    { "@type": "Review", "author": { "@type": "Person", "name": "Michelle Grey" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "Absolutely love my blonde hair!! I finally got what I have been trying to get for years thanks to Hayleigh. Do yourself a favour if you want a clean looking blonde you must go to this salon." },
+    { "@type": "Review", "author": { "@type": "Person", "name": "Rachael" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "I will highly recommend H's Place to anyone wanting great professional service." },
+    { "@type": "Review", "author": { "@type": "Person", "name": "Jade Green" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "5 stars all the way! The most amazing team I've ever seen in a hair salon. They really go above and beyond for you." },
+    { "@type": "Review", "author": { "@type": "Person", "name": "Heather" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "My experience was amazing! Walked out feeling like a million dollars thanks to Aimee and her amazing massage!" },
+    { "@type": "Review", "author": { "@type": "Person", "name": "Nicole B." }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "reviewBody": "THANK GOD I found H's Place. Thanks to Hayleigh I got what I wanted. She was really honest. I highly recommend this salon." }
   ]
 }
 
